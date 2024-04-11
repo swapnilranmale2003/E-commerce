@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+    background-color: #101720;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    transition: text-decoration 0.3s ease-in;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
