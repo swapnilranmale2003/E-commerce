@@ -34,7 +34,7 @@ const Cart = () => {
         <button onClick={handleContinueShopping}>Continue shopping</button>
         <button>Checkout</button>
       </div>
-      : <h1>Your card is empty</h1> }
+      : <h1>Your cart is empty</h1> }
     </div>
   )
 }
