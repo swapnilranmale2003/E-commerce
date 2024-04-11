@@ -26,12 +26,15 @@ const Cart = () => {
           }
         })}
       </div>
+      {
+        totalAmount>0 ?
+      
       <div className="checkout">
         <p>Subtotal: $ {totalAmount} </p>
         <button onClick={handleContinueShopping}>Continue shopping</button>
         <button>Checkout</button>
-
       </div>
+      : <h1>Your card is empty</h1> }
     </div>
   )
 }
